@@ -112,6 +112,8 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             let moveAction = SKAction.moveTo(x: self.size.width, duration: 1.0)
             let action = SKAction.sequence([moveAction, SKAction.removeFromParent()])
             missile.run(action, completion: {self.missileCnt -= 1})
+            let sound = SKAction.playSoundFileNamed("laser.m4a", waitForCompletion: false)
+            run(sound)
         }
     }
     

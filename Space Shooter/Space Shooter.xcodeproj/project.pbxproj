@@ -15,6 +15,7 @@
 		BA1A6F54213B47DD004095F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA1A6F52213B47DD004095F8 /* Main.storyboard */; };
 		BA1A6F56213B47DD004095F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA1A6F55213B47DD004095F8 /* Assets.xcassets */; };
 		BA1A6F59213B47DD004095F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA1A6F57213B47DD004095F8 /* LaunchScreen.storyboard */; };
+		BA4E9D79213DCEAC00095FD2 /* laser.m4a in Resources */ = {isa = PBXBuildFile; fileRef = BA4E9D78213DCE8C00095FD2 /* laser.m4a */; };
 		BAD2EBE1213C3E15002A9FA4 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = BAD2EBE0213C3E15002A9FA4 /* spark.png */; };
 		BAD2EBE3213C3F7E002A9FA4 /* music.m4a in Resources */ = {isa = PBXBuildFile; fileRef = BAD2EBDF213C3C2F002A9FA4 /* music.m4a */; };
 		BAD2EBE5213C47B6002A9FA4 /* battle.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BAD2EBE4213C47B6002A9FA4 /* battle.mp3 */; };
@@ -34,6 +35,7 @@
 		BA1A6F55213B47DD004095F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA1A6F58213B47DD004095F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BA1A6F5A213B47DD004095F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA4E9D78213DCE8C00095FD2 /* laser.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = laser.m4a; sourceTree = "<group>"; };
 		BAD2EBDF213C3C2F002A9FA4 /* music.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = music.m4a; sourceTree = "<group>"; };
 		BAD2EBE0213C3E15002A9FA4 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
 		BAD2EBE4213C47B6002A9FA4 /* battle.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = battle.mp3; sourceTree = "<group>"; };
@@ -89,6 +91,7 @@
 		BAD2EBE2213C3EFA002A9FA4 /* ExtraAssets */ = {
 			isa = PBXGroup;
 			children = (
+				BA4E9D78213DCE8C00095FD2 /* laser.m4a */,
 				BAD2EBDF213C3C2F002A9FA4 /* music.m4a */,
 				BAD2EBE4213C47B6002A9FA4 /* battle.mp3 */,
 				BAD2EBE0213C3E15002A9FA4 /* spark.png */,
@@ -165,6 +168,7 @@
 				BAF76868213BC4CD00C03A85 /* Explosion.wav in Resources */,
 				BAD2EBE5213C47B6002A9FA4 /* battle.mp3 in Resources */,
 				BA1A6F59213B47DD004095F8 /* LaunchScreen.storyboard in Resources */,
+				BA4E9D79213DCEAC00095FD2 /* laser.m4a in Resources */,
 				BAD2EBE1213C3E15002A9FA4 /* spark.png in Resources */,
 				BA1A6F4D213B47DD004095F8 /* Actions.sks in Resources */,
 				BAF76866213BC4BA00C03A85 /* ExplosionParticle.sks in Resources */,
